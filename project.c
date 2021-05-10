@@ -21,7 +21,6 @@ int main()
 		
 		if((usuari1.any==anyActual && mesActual==12 && diaActual>=22) || (usuari1.any>1812 && usuari1.any<anyActual)){
 			error=1;
-			printf("\nEy");
 		}
 	}while(!error);
 } 
