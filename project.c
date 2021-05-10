@@ -16,11 +16,12 @@ int main()
 		time_t t = time(NULL);
 		struct tm tm = *localtime(&t);
 		anyActual= tm.tm_year + 1900;
-		mesActual= 12;//tm.tm_mon + 1;
-		diaActual= 26;//tm.tm_mday;
+		mesActual= tm.tm_mon + 1;
+		diaActual= tm.tm_mday;
 		
 		if((usuari1.any==anyActual && mesActual==12 && diaActual>=22) || (usuari1.any>1812 && usuari1.any<anyActual)){
 			error=1;
+;
 		}
 	}while(!error);
 } 
