@@ -1,0 +1,6 @@
+-> Indica el numero del decim a comprobar:
+-> Indica l'import jugat:
+-> Indica l'any que vols comprobar: 
+-> Indica un decim valid:
+-> Indica un import valid:
+-> Indica un any valid (1812 - 2020): 

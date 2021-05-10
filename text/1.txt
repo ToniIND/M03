@@ -1,0 +1,6 @@
+-> Indica el numero del decimo a comprobar:
+-> Indica elimport jugado:
+-> Indica el año que quieres mirar: 
+-> Indica un decimo valido:
+-> Indica un importe valido:
+-> Indica un año valido (1812 - 2020): 

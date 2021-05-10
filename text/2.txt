@@ -1,0 +1,6 @@
+-> Indicate the tenth number you want to check:
+-> Indicate the amount played:
+-> Indicate the year you want to check:
+-> Indicate a valid tenth:
+-> Indicate a valid amount:
+-> Indicate a valid year (1812 - 2020): 
