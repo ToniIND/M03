@@ -4,3 +4,5 @@
 -> Indica un decim valid:
 -> Indica un import valid:
 -> Indica un any valid (1812 - 2020): 
+-> Vols jugar sol o amb colla? (0 - SOL / 1 - COLLA):  
+-> Has de seleccionar una opcio valida (0/1): 

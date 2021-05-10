@@ -4,3 +4,5 @@
 -> Indicate a valid tenth:
 -> Indicate a valid amount:
 -> Indicate a valid year (1812 - 2020): 
+-> Do you want to play alone or with friends? (0 - ALONE / 1 - FRIENDS):  
+-> You should choose a valid option (0/1): 

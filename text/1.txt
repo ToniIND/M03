@@ -4,3 +4,5 @@
 -> Indica un decimo valido:
 -> Indica un importe valido:
 -> Indica un año valido (1812 - 2020): 
+-> Quieres jugar solo o con amigos? (0 - SOLO / 1 - AMIGOS):  
+-> Has de elegir una opcion valida (0/1): 
