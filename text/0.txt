@@ -1,6 +1,10 @@
 -> Indica el numero del decim a comprobar:
+-> El dècim introduït és incorrecte, ha d'estar entre el 00000 i el 99999.
 -> Indica l'import jugat:
 -> Indica l'any que vols comprobar: 
 -> Indica un decim valid:
 -> Indica un import valid:
 -> Indica un any valid (1812 - 2020): 
+-> Vols jugar sol o amb amic?
+-> Vols veure tots els numeros premiats?
+NUMEROS PREMIATS LOTERIA
