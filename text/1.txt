@@ -1,6 +1,10 @@
 -> Indica el numero del decimo a comprobar:
+-> El decimo introducido es incorrecto, tiene que estar entre 00000 y 99999
 -> Indica elimport jugado:
 -> Indica el año que quieres mirar: 
 -> Indica un decimo valido:
 -> Indica un importe valido:
 -> Indica un año valido (1812 - 2020): 
+-> ¿Quieres jugar solo o con amigos?
+-> ¿Quieres ver todos los numeros premiados?
+NUMEROS PREMIADOS LOTERIA
