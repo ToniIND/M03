@@ -1,6 +1,75 @@
 -> Indicate the tenth number you want to check:
+-> The tenth inserted is incorrect, the number must be between 00000 and 99999
 -> Indicate the amount played:
 -> Indicate the year you want to check:
 -> Indicate a valid tenth:
 -> Indicate a valid amount:
 -> Indicate a valid year (1812 - 2020): 
+-> Do you want to play alone or with friends?
+-> Do you want to see all the winner numbers?
+LOTTERY WINNER NUMBERS
+-> You won the FIRST PRIZE
+-> You played   euros, so the final amount you get is 
+-> You won the SECOND PRIZE
+-> You played   euros, so the final amount you get is 
+-> You won the THIRD PRIZE
+-> You played   euros, so the final amount you get is 
+-> You won the FOURTH PRIZE
+-> You played   euros, so the final amount you get is 
+-> You won the FIFTH PRIZE
+-> You played   euros, so the final amount you get is 
+-> The number is awarded with 1000 euros
+-> You played   euros, so the final amount you get is 
+-> You have the approximation of the FIRST PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the aproximation is
+-> You have the approximation of the SECOND PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the aproximation is
+-> You have the approximation of the THIRD PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the aproximation is
+-> The last two numbers of your tenth are equal to the ones of the FIRST PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the same two last numbers is
+-> The last two numbers of your tenth are equal to the ones of the SECOND PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the same two last numbers is
+-> The last two numbers of your tenth are equal to the ones of the THIRD PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the same two last numbers is
+-> You have the aproximation to the hundreds of the FIRST PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the aproximation to the hundreds is
+-> You have the aproximation to the hundreds of the SECOND PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the aproximation to the hundreds is
+-> You have the aproximation to the hundreds of the THIRD PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the aproximation to the hundreds is
+-> You have the aproximation to the hundreds of the one of the FOURTH PRIZES
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the aproximation to the hundreds is
+-> You have the aproximation to the hundreds of the one of the FOURTH PRIZES
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the aproximation to the hundreds is
+-> You have the refund because the last number of your tenth mathces the last one of the FIRST PRIZE
+-> PRIZE = 
+-> TENTH = 
+-> You played   euros, so the final amount you get for the refund is 
+-> The final prize to pay is 
+-> We are sorry, the tenth played it's not awarded
+-> Do you want to keep checking (1) YES (0) NO
+-> Thanks for using our program
+-> By: Fernando, Eric and Toni
