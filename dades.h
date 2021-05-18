@@ -3,15 +3,45 @@
 #include <time.h>
 #include <math.h>
 #include <string.h>
+#include <unistd.h>
+
 
 
 /*-------------------------------------------------------------*/
 /*DEFINES                                                      */
 
-#define CERT 0
-#define FALS 1
+#define CERT 1
+#define FALS 0
+#define PREU_DECIM 20
+#define DECIM 10
+#define NR_PREMIS_MENORS 1794
+#define NR_PREMIS_MAJORS 13
+#define N_PREMIS 1807
+#define NOMBRE_NUMEROS 99999
 
-char linies[50][200];
+/*IMPORTS DELS PREMIS*/
+
+#define PRIMER_PREMI 4000000
+#define SEGON_PREMI 1250000
+#define TERCER_PREMI 500000
+#define QUART_PREMI 200000
+#define CINQUE_PREMI 60000
+#define PREMI_MENOR 1000
+#define APROXIMACIO1er 20000
+#define APROXIMACIO2on 12500
+#define APROXIMACIO3er 9600
+#define REINTEGRAMENT 200
+#define XIFRES_FINALS123 1000
+#define CENTENES12344 1000
+
+/*-------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------*/
+/*VARIABLES GLOBALS                                                      */
+
+char linies[50][200], premis[10][200];
 
 /*-------------------------------------------------------------*/
 
@@ -28,6 +58,25 @@ struct usuaris {
 } usuari1;											   
 
 /*-------------------------------------------------------------*/
+
+
+
+
+//--------------------------------------------------------------
+//FUNCIO PER GENERAR UNA IMATGE INICIAL.
+
+void imatgeInicial (void) {
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	printf("| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |\n");
+	printf("||     *            *                       *             ||\n");
+	printf("||             *       LOTERIA NADAL...         *         ||\n");
+	printf("||  *            *                      *                 ||\n");
+	printf("|| *             ...PER FERNANDO, ERIC I TONI  *          ||\n");
+	printf("||             *      *            *               *      ||\n");
+	printf("| ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ |\n");
+	printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n");
+}
+//--------------------------------------------------------------
 
 
 
@@ -143,6 +192,44 @@ void generarPremis(){
 }
 
 /*-------------------------------------------------------------*/
+
+
+
+//--------------------------------------------------------------
+//FUNCIO PER MOSTRAR ELS NUMEROS PREMIATS
+
+void mostrarPremiats () {
+	int i, j=N_PREMIS/2, k, cont=0, mostrar=FALS;
+	char nom_fitxer[20], linia[50];
+	FILE *fp;
+	
+	do {
+	    printf("  -> "); 
+	    printf("Vols veure tots els numeros premiats? (1/SI - 0/NO): ");
+        scanf("%d", &mostrar);
+	} while (mostrar != 0 && mostrar != 1);
+	
+    if (mostrar == CERT) {
+		
+		snprintf(nom_fitxer, 100, "%d.dat", usuari1.any);
+		fp = fopen(nom_fitxer, "r");
+		while (!feof(fp)) {
+			fgets(linia, 200, fp);
+			strcpy(premis[i++], linia);
+		}
+		
+    	printf("\n              %s\n", linies[10]);
+    	printf("               ================================\n");
+    	for (k = 0; k < N_PREMIS/2; k++) {
+    	    printf("               || %05d       ||     %05d   ||\n", premis[k], premis[j]);
+    	    j++;
+    	    cont+=2;
+    	}
+    	printf("               || %05d       ||     %05d   ||\n", premis[N_PREMIS-2], premis[N_PREMIS-1]);
+    	printf("               ================================\n");
+    }
+}
+//--------------------------------------------------------------
 
 
 
