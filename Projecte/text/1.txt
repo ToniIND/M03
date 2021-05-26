@@ -1,0 +1,39 @@
+-> Indica el numero del decimo a comprobar:
+-> Indica elimport jugado:
+-> Indica el año que quieres mirar: 
+-> Indica un decimo valido:
+-> Indica un importe valido:
+-> Indica un año valido (1812 - 2020): 
+-> ¿Quieres jugar solo o con amigos? (0-Solo / 1-Amigos)
+-> ¿Quieres ver todos los numeros premiados? (0-Si / 1-No)
+NUMEROS PREMIADOS LOTERIA
+-> Has ganado el PRIMER PREMIO 
+-> Has ganado el SEGUNDO PREMIO
+-> Has ganado el TERCER PREMIO
+-> Has ganado el CUARTO PREMIO
+-> Has ganado el QUINTO PREMIO
+-> El decimo tiene 1000 euros de premio
+-> El decimo no tiene premio grande, a continuacion veremos los pequeños
+-> Tienes la aproximacion al PRIMER PREMIO
+-> Tienes la aproximacion al SEGUNDO PREMIO
+-> Tienes la aproximacion al TERCER PREMIO
+-> Los ultimos dos numeros de su decimo son iguales a los del PRIMER PREMIO
+-> Los ultimos dos numeros de su decimo son iguales a los del SEGUNDO PREMIO
+-> Los ultimos dos numeros de su decimo son iguales a los del TERCER PREMI
+-> Tiene la aproximacion a las centenas del PRIMER PREMIO
+-> Tiene la aproximacion a las centenas del SEGUNDO PREMIO
+-> Tiene la aproximacion a las centenas del TERCER PREMIO
+-> Tiene la aproximacion a las centenas de uno de los CUARTOS PREMIOS
+-> Tiene el reintegro de su decimo porque el ultimo numero conicide con el PRIMER PREMIO
+-> Lo sentimos, el decimo jugado no esta premiado
+-> Quiere seguir comprobando? (1) SI (0) NO
+-> Gracias por usar nuestro programa
+-> Por: Fernando, Eric and Toni
+-> Nombre del grupo:
+-> Cuantos amigos sois? (2/20): 
+-> Teneis que ser entre 2 y 20 amigos...
+-> Indica el año que quieres comprobar
+-> No es un año possible
+-> Indica el nombre del amigo 
+-> Indica el decimo del amigo 
+-> Indica el importe jugado del amigo 
