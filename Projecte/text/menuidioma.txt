@@ -1,0 +1,4 @@
+-> Menu d'idiomes
+0.- Catala
+1.- Castellano
+2.- English
